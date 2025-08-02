@@ -1,0 +1,102 @@
+
+<div class="page-header">
+  <h2>{{'options_tab_importExport' | tr}}</h2>
+</div>
+<section class="settings-group">
+  <h3>{{'options_group_importExportProfile' | tr}}</h3>
+  <div class="help-block">
+    <div class="text-info"><span class="glyphicon glyphicon-info-sign"></span> {{'options_exportProfileHelp' | tr}}
+    </div>
+  </div>
+  <div ng-show="!(options[&quot;-showConditionTypes&quot;] &gt; 0)" class="checkbox">
+    <label>
+      <input type="checkbox" ng-model="options[&quot;-exportLegacyRuleList&quot;]"/><span>{{'options_exportLegacyRuleList' | tr}}</span>
+    </label>
+    <p omega-html="'options_exportLegacyRuleListHelp' | tr" class="help-block"></p>
+  </div>
+</section>
+<section class="settings-group">
+  <h3>{{'options_group_importExportSettings' | tr}}</h3>
+  <p>
+    <button ng-click="exportOptions()" class="btn btn-default"><span class="glyphicon glyphicon-floppy-save"></span> {{'options_makeBackup' | tr}}
+    </button><span class="help-inline">{{'options_makeBackupHelp' | tr}}</span>
+  </p>
+  <p>
+    <input id="restore-local-file" type="file" omega-upload="restoreLocal($content)" omega-error="restoreLocalError($error)"/>
+    <button ng-click="triggerFileInput()" ladda="restoringLocal" data-spinner-color="#000000" class="btn btn-default"><span class="glyphicon glyphicon-folder-open"></span> {{'options_restoreLocal' | tr}}
+    </button><span class="help-inline">{{'options_restoreLocalHelp' | tr}}</span>
+  </p>
+  <div>
+    <label>{{'options_restoreOnline' | tr}}</label>
+    <div class="input-group width-limit">
+      <input type="url" ng-model="restoreOnlineUrl" placeholder="{{'options_restoreOnlinePlaceholder' | tr}}" class="form-control"/><span class="input-group-btn">
+        <button ng-click="restoreOnline()" ladda="restoringOnline" data-spinner-color="#000000" class="btn btn-default">{{'options_restoreOnlineSubmit' | tr}}</button></span>
+    </div>
+  </div>
+</section>
+<section class="settings-group">
+  <h3>{{'options_group_syncing' | tr}}</h3>
+  <div>
+    <form class="sync-form">
+      <div class="form-group">
+        <label>{{'Gist Id'}}</label>
+        <div class="input-group width-limit"><span class="input-group-addon">{{'ID'}}</span>
+          <input type="text" ng-model="gistId" ng-readonly="syncOptions == &quot;sync&quot;" placeholder="Gist Id e.g. https://gist.github.com/{username}/{Gist Id}" class="form-control"/><span ng-click="cleanInput(&quot;gistId&quot;)" ng-if="syncOptions != &quot;sync&quot;" class="glyphicon glyphicon-remove btn clean-btn"></span>
+        </div><span class="help-block"><a href="https://gist.github.com/" role="button" target="_blank">{{'Create a secret Gist. '}}</a><strong>{{" Note: If it's a public Gist, your options can be searched by others。"}}</strong></span>
+      </div>
+      <div class="form-group">
+        <label>{{'Gist Token'}}</label>
+        <div class="input-group width-limit"><span class="input-group-addon">{{'TOKEN'}}</span>
+          <input type="text" ng-model="gistToken" ng-readonly="syncOptions == &quot;sync&quot;" placeholder="Gist Token" class="form-control"/><span ng-click="cleanInput(&quot;gistToken&quot;)" ng-if="syncOptions != &quot;sync&quot;" class="glyphicon glyphicon-remove btn clean-btn"></span>
+        </div><span class="help-block"><a href="https://github.com/settings/tokens/new" role="button" target="_blank">{{ 'Create a token that manages the Gist.' }}<strong>{{ '(Gist permission is required.)'}}</strong></a></span>
+      </div>
+    </form>
+  </div>
+  <div ng-show="syncOptions == &quot;pristine&quot; || syncOptions == &quot;disabled&quot;">
+    <div class="checkbox">
+      <label>
+        <input id="use-built-in-sync-enhance" type="checkbox" ng-model="useBuiltInSync"/><span>{{'options_useBuiltInSyncEnhance' | tr}}</span>
+      </label>
+      <details class="use-built-in-sync-enhance-tip">
+        <summary><span class="glyphicon glyphicon-question-sign"></span></summary>
+        <ol omega-html="&quot;options_useBuiltInSyncEnhanceTip&quot; | tr"></ol>
+      </details>
+    </div>
+    <p omega-html="&quot;options_syncPristineHelp&quot; | tr" class="help-block"></p>
+    <p>
+      <button ng-click="enableOptionsSync()" ladda="enableOptionsSyncing" data-spinner-color="currentColor" class="btn btn-default"><span class="glyphicon glyphicon-cloud-upload"></span> {{'options_syncEnable' | tr}}
+      </button>
+    </p>
+  </div>
+  <div ng-show="syncOptions == &quot;sync&quot;">
+    <p class="alert alert-success width-limit">
+      <button ng-click="checkOptionsSyncChange()" ladda="enableOptionsSyncing" class="btn btn-sm btn-success"><span class="glyphicon glyphicon-refresh"></span></button><span>{{'   last sync date: '}}</span>{{ lastGistSync | date:'medium'}}
+      {{'('}}
+      {{lastGistState}}
+      {{')'}}<a href="{{gistUrl}}" role="button" target="_blank">{{' '}}<span class="glyphicon glyphicon-link"></span></a><br/><br/><span class="glyphicon glyphicon-ok"></span> {{"options_syncSyncAlert" | tr}}
+    </p>
+    <p>
+      <button ng-click="disableOptionsSync()" class="btn btn-warning"><span class="glyphicon glyphicon-remove-sign"></span> {{'options_syncDisable' | tr}}
+      </button>
+    </p>
+  </div>
+  <div ng-show="syncOptions == &quot;conflict&quot;">
+    <div class="checkbox">
+      <label>
+        <input id="use-built-in-sync-enhance" type="checkbox" ng-model="useBuiltInSync"/><span>{{'options_useBuiltInSyncEnhance' | tr}}</span>
+      </label>
+    </div>
+    <p class="alert alert-danger width-limit"><span class="glyphicon glyphicon-info-sign"></span> {{"options_syncConflictAlert" | tr}}
+    </p>
+    <p omega-html="&quot;options_syncConflictHelp&quot; | tr" class="help-block"></p>
+    <p>
+      <button ng-click="enableOptionsSync({force: true})" ladda="enableOptionsSyncing" class="btn btn-danger"><span class="glyphicon glyphicon-cloud-download"></span> {{'options_syncEnableForce' | tr}}
+      </button> 
+      <button ng-click="resetOptionsSync()" class="btn btn-link"><span class="glyphicon glyphicon-erase"></span> {{'options_syncReset' | tr}}
+      </button>
+    </p>
+  </div>
+  <div ng-show="syncOptions == &quot;unsupported&quot;">
+    <p omega-html="&quot;options_syncUnsupportedHelp&quot; | tr" class="help-block"></p>
+  </div>
+</section>

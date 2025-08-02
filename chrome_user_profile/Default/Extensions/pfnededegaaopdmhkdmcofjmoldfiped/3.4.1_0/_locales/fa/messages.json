@@ -1,0 +1,1219 @@
+{
+   "about_app_description": {
+      "message": "ابزار پیکربندی پراکسی"
+   },
+   "about_copyright": {
+      "message": "کپی رایت 2017-2012 \u003Ca href='https://github.com/FelisCatus/SwitchyOmega/blob/master/AUTHORS'>نویسندگان The SwitchyOmega \u003C/a>. کلیه حقوق محفوظ است، ترجمه شده به فارسی توسط گودرز جعفری."
+   },
+   "about_credits": {
+      "message": "ZeroOmega به کمک پروژه ی متن باز \u003Ca href='https://github.com/FelisCatus/SwitchyOmega'>ZeroOmega\u003C/a> و دیگر پروژه های متن باز\u003Ca href='https://github.com/FelisCatus/SwitchyOmega/blob/master/AUTHORS'>میسر شده است\u003C/a>."
+   },
+   "about_disclaimer_networkService": {
+      "message": "ZeroOmega پروکسی، وی پی ان یا دیگر خدمات شبکه ای فراهم نمیکند."
+   },
+   "about_disclaimer_privacy": {
+      "message": "ZeroOmega شما را ردیابی نمی کند یا تبلیغاتی را در صفحات وب درج نمی کند. لطفاً \u003Ca href='https://github.com/FelisCatus/SwitchyOmega/wiki/Privacy#english'>خط مشی رازداری\u003C/a> ما را ببینید."
+   },
+   "about_experimental_warning_moz": {
+      "message": "پشتیبانی از فایرفاکس کاملا آزمایشی میباشد! در صورت مواجه با خطا، لطفا از طریق دکمه ی زیر ما را در جریان بگذارید."
+   },
+   "about_help": {
+      "message": "بازم سوال دارید؟ نیاز به کمک دارید؟ لطفا به صفحه \u003Ca href='https://github.com/FelisCatus/SwitchyOmega/wiki/FAQ'>FAQ\u003C/a> مراجعه بفرمایید."
+   },
+   "about_license": {
+      "message": "ZeroOmega \u003Ca href='https://www.gnu.org/philosophy/free-sw.en.html'>یک نرم افزار آزاد \u003C/a>، تحت لیسانس\u003Ca href='https://www.gnu.org/licenses/gpl.html'>GNU \u003C/a> نسخه ی 3 به بعد میباشد."
+   },
+   "about_title": {
+      "message": "درباره"
+   },
+   "about_version": {
+      "message": "نسخه $VERSION$",
+      "placeholders": {
+         "VERSION": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "appNameShort": {
+      "message": "سوییچی‌اومگا"
+   },
+   "browserAction_attachedPrefix": {
+      "message": "(RL) "
+   },
+   "browserAction_defaultRuleDetails": {
+      "message": "(پیش‌گزیده)"
+   },
+   "browserAction_directResult": {
+      "message": "مستقیم"
+   },
+   "browserAction_profileDetails_DirectProfile": {
+      "message": "(عدم استفاده از هرگونه پروکسی)"
+   },
+   "browserAction_profileDetails_PacProfile": {
+      "message": "( اسکریپت PAC )"
+   },
+   "browserAction_profileDetails_RuleListProfile": {
+      "message": "(جابه جایی بر اساس لیست قوانین)"
+   },
+   "browserAction_profileDetails_SwitchProfile": {
+      "message": "(جابه جایی بر اساس شروط)"
+   },
+   "browserAction_profileDetails_SystemProfile": {
+      "message": "( کنترل شده توسط دیگر افزونه ها یا محیط )"
+   },
+   "browserAction_tempRulePrefix": {
+      "message": "(موقت) "
+   },
+   "browserAction_titleDownloadFail": {
+      "message": "اخطار: شکست در دانلود اسکریپت PAC و/یا لیست های قوانین ."
+   },
+   "browserAction_titleExternalProxy": {
+      "message": "نکته : تنظیمات پروکسی هم اکنون توسط دیگر برنامه (ها) مدیریت میشود ."
+   },
+   "browserAction_titleInspect": {
+      "message": "[بررسی] $URL$",
+      "placeholders": {
+         "URL": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "browserAction_titleNewerOptions": {
+      "message": "خطا: برای بارگیری گزینه های ذخیره شده ، نسخه جدیدتر ZeroOmega مورد نیاز است."
+   },
+   "browserAction_titleNormal": {
+      "message": "ZeroOmega :: $PROFILE$",
+      "placeholders": {
+         "PROFILE": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "browserAction_titleOptionError": {
+      "message": "خطا : تنظیمات دخیره شده خراب شده اند .برای ریست کردن تنظیمات کلیک کنید ."
+   },
+   "browserAction_titleWithResult": {
+      "message": "ZeroOmega ::  $PROFILE$\n $DETAILS$",
+      "placeholders": {
+         "DETAILS": {
+            "content": "$3"
+         },
+         "PROFILE": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         },
+         "_unused_2": {
+            "content": "$2"
+         }
+      }
+   },
+   "condition_FalseCondition": {
+      "message": "(از کار افتاده)"
+   },
+   "condition_HostLevelsCondition": {
+      "message": "سطح‌های میزبان"
+   },
+   "condition_HostRegexCondition": {
+      "message": "عبارت باقاعدهٔ میزبان"
+   },
+   "condition_HostWildcardCondition": {
+      "message": "وایلدکارد میزبان"
+   },
+   "condition_IpCondition": {
+      "message": "مجموعه IP Literals"
+   },
+   "condition_KeywordCondition": {
+      "message": "کلیدواژه"
+   },
+   "condition_TimeCondition": {
+      "message": "زمان کنونی"
+   },
+   "condition_UrlRegexCondition": {
+      "message": "عبارت باقاعدهٔ نشانی"
+   },
+   "condition_UrlWildcardCondition": {
+      "message": "وایلدکارد نشانی"
+   },
+   "condition_WeekdayCondition": {
+      "message": "روز هفته"
+   },
+   "condition_alert_fullUrlLimitation": {
+      "message": "مچ کامل دیگر برای این آدرس از کروم 52 به ممکن نیست. \u003Ccode>https://\u003C/code> . \u003Ca href='https://github.com/FelisCatus/SwitchyOmega/wiki/Chromium-Full-URL-Limitation'>اصلاعات بیشتر...\u003C/a>"
+   },
+   "condition_alert_fullUrlLimitationLink": {
+      "message": "https://github.com/FelisCatus/SwitchyOmega/wiki/Chromium-Full-URL-Limitation"
+   },
+   "condition_details_FalseCondition": {
+      "message": "(شرط هنگام تطبیق نادیده گرفته شد)"
+   },
+   "condition_group_default": {
+      "message": ""
+   },
+   "condition_group_host": {
+      "message": "میزبان"
+   },
+   "condition_group_special": {
+      "message": "ویژه"
+   },
+   "condition_group_url": {
+      "message": "نشانی"
+   },
+   "condition_help_FalseCondition": {
+      "message": "شما می‌توانید یک شرط را با قرار دادن نوع آن به \u003Ccode>(غیرفعال)\u003C/code> غیرفعال کنید . یک شرط غیرفعال طوری عمل میکند که انگار وجود ندارد .\u003Cbr> از این قابلیت برای غیرفعال کردن موقت شرط استفاده نمایید .\u003Cbr> شروط غیرفعال تمامی تنظیمات خود را حفظ می‌کنند و در صورت نیاز می‌توانید با برگردان نوع آن به حالت قبلی آن را فعال کنید ."
+   },
+   "condition_help_HostLevelsCondition": {
+      "message": "تنها درصورتی درخواست را انطباق می‌دهد که سطح میزبان در محدوده‌ی داده شده باشد .\u003Cbr> به \u003Cb> تعداد بخش های جدا شده توسط نقطه ( دات )\u003C/b> سطح میزبان ، هاست ( دامنه ) داده شده می‌گویند . \u003Cbr> به طور مثال \u003Ccode>www.example.com\u003C/code> دارای سطح میزابن سه می‌باشد ، در حالی که \u003Ccode>داخل\u003C/code> سطح میزبان یک را دارد."
+   },
+   "condition_help_HostRegexCondition": {
+      "message": "همانند شرط فرانویسه ی میزبان،اما با کمک \u003Ca href='https://www.google.com/search?q=عبارت+منظم'>عبارت منظم\u003C/a>.\u003Cbr> میزبان ها ( اسامی دامنه ها ) را انتخاب و تطابق میدهد . نوشتن یا حتی خواندن عبارات منظم میتواند سخت باشد.\u003Cbr> پیشنهاد میشود که از فرانویسه استفاده کنید و فقط در مواقعی که به هیچ روشی نمیشود عبارتی رو یافت از عبارات منظم استفاده کنید ."
+   },
+   "condition_help_HostWildcardCondition": {
+      "message": "انتخاب و تطبیق میزبان ها ( نام دامین ) به کمک فرا نویسه . \u003Cbr>\u003Cb> ستاره \u003Ccode>*\u003C/code>\u003C/b> صفر کارکتر یا بیشتر را تطابق می‌دهد .\u003Cbr>\u003Cb> علامت سوال \u003Ccode>?\u003C/code>\u003C/b> فقط یک کارکتر را انتخاب و تطابق می‌دهد ..\u003Cbr>\u003Cbr>توجه داشته باشید که قوانینی که با \u003Ccode>*\u003C/code>شروع می‌شوند به صورت ویژه تنها در شروط فرانویسه ایه میزبان کاربرد دارند .\u003Cbr> به طور مثال: \u003Ccode>*.example.com\u003C/code> این ادرس ها را تشخیص می‌دهد. \u003Cb> www.example.com و example.com .\u003C/b>\u003Cbr برای انتخاب زیر دامنه ها \u003Cb>کافیست\u003C/b> ، از \u003Cb>دو\u003C/b> ستاره استفاده نمایید . \u003Ccode>**.example.com\u003C/code>."
+   },
+   "condition_help_IpCondition": {
+      "message": "تنها و تنها در صورتی درخواست را قبول می‌کند اگر \u003Cb>دقیقا\u003C/b> ای پی آدرس ذکر شده باشد و در زیر مجموعه مشخص شده در \u003Ca href='https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation'>CIDR notation\u003C/a> باشد.\u003Cbr>\nبرای مثال، در صورت وجود قانون \u003Ccode>127.0.0.1/16\u003C/code>، تمامی آدرس های آی پی مثل\u003Ccode>127.0.*.*\u003C/code>را می‌پذیرد.\u003Cbr>بنابراین \u003Ccode>127.0.0.1\u003C/code> پذیرفته می‌شود در حالی که\u003Ccode>127.1.0.0\u003C/code> پذیرفته نمی‌شود.\nمیزبان هایی مانند \u003Ccode>localhost\u003C/code> هیچوقت پذیرفته نمی‌شوند بخاطر اینکه آی پی\u003Cb>دقیق\u003C/b> نمی‌باشند."
+   },
+   "condition_help_KeywordCondition": {
+      "message": "شرط کلمات کلیدی درصورتی انتخاب انجام می‌دهد که پروتکل مورد استفاده HTTP باشد ، و الگو (pattern) یک خرده-رشته ی ادرس باشد .\u003Cbr> همانند الگوی فرانویسه ی ادرس کار می‌کند که در اینجا \u003Ccode>http://*\u003Cb>pattern\u003C/b>*\u003C/code> قسمت \u003Cb>pattern\u003C/b> الگوی کلمه ی کلیدی می‌باشد . \u003Cbr> شرط کلمات کلیدی زمانی مفید هستند که قصد دارید از یک فایروالی که کلمات خاصی را که در ادرس بلاک می‌کند بگذرید . اینگونه می‌توانید اینگونه آدرس های خاص را پیدا کرده و با پروکسی از آن ها عبور کرده."
+   },
+   "condition_help_TimeCondition": {
+      "message": "اگر زمان محلی فعلی در محدوده تعریف شده توسط \u003Cb> ساعت شروع \u003C/b> و \u003Cb> ساعت پایان \u003C/b> باشد ، هر دو با هم مطابقت دارند. \u003Cbr> زمان محلی ، ساعت شروع و ساعت پایان همه در محاسبه می شوند قالب \u003Cb> 24 ساعته \u003C/ b> (از \u003Cb> 0 تا 23 \u003C/b>). \u003Cbr> محاسبه تقریباً در لحظه ارسال درخواست انجام می شود."
+   },
+   "condition_help_UrlRegexCondition": {
+      "message": "ادرس ها را ابزار قدرتمند \u003Ca href='https://www.google.com/search?q=عبارت+منظم'>عبارت منظم\u003C/a> تشخیص و انتطباق می‌دهد .\u003Cbr> پیشنهاد می‌شود که از فرانویسه استفاده کنید و فقط در مواقعی که به هیچ روشی نمی‌شود عبارتی رو یافت از عبارات منظم استفاده کنید ."
+   },
+   "condition_help_UrlWildcardCondition": {
+      "message": "ادرس های درخواست داده شده را به کمک فرانویسه بررسی و مطابقت می‌دهد .\u003Cbr> برای اشنایی با فرانویسه به بخش فرانویسه ی میزبان مراجعه کنید .\u003Cbr> توجه داشته باشید که فرانویسه‌ی آدرس به صورت ویژه‌ای برخورد نمی‌شوند ( تشخیص جادویی زیردامنه همانند هاست وجود ندارد ) \u003Cbr> بنابراین دستور \u003Ccode>*://*.example.com/*\u003C/code> ادرس http://www.example.com/ را تشخیص می‌دهد اما این ادرس http://example.com را\u003Cb>تشخیص نمی‌دهد .\u003C/b>."
+   },
+   "condition_help_WeekdayCondition": {
+      "message": "در صورت انتخاب \u003Cb> روز جاری هفته \u003C/ b> با جزئیات شرایط مطابقت دارد. روز براساس منطقه زمانی محلی محاسبه می شود. \u003Cbr> درخواست و آدرس اینترنتی آن برای این شرایط مهم نیست. نتیجه صرفاً براساس روز هفته ارسال درخواست است."
+   },
+   "contextMenu_enableQuickSwitch": {
+      "message": "فعال سازی تغییر سرعتی"
+   },
+   "contextMenu_inspectElement": {
+      "message": "بررسی پروکسی مورد استفاده برای این المان"
+   },
+   "contextMenu_inspectFrame": {
+      "message": "بررسی پروکسی مورد استفاده برای این فریم"
+   },
+   "contextMenu_inspectLink": {
+      "message": "بررسی پروکسی مورد استفاده اگر لینک باز شود"
+   },
+   "contextMenu_inspectPage": {
+      "message": "بررسی پروکسی مورد استفاده برای این صفحه"
+   },
+   "dialog_cancel": {
+      "message": "لغو"
+   },
+   "dialog_close": {
+      "message": "بستن"
+   },
+   "dialog_ok": {
+      "message": "قبول"
+   },
+   "dialog_save": {
+      "message": "ذخیرهٔ تغییرات"
+   },
+   "inputClear_clear": {
+      "message": "پاک‌سازی"
+   },
+   "inputClear_restore": {
+      "message": "بازگردانی"
+   },
+   "manifest_app_description": {
+      "message": "مدیریت و تعویض سریع و آسان بین چندین پیشکار."
+   },
+   "manifest_app_name": {
+      "message": "سوییچی‌اومگای پیشکار"
+   },
+   "manifest_icon_default_title": {
+      "message": "بار کردن…"
+   },
+   "options_addCondition": {
+      "message": "افزودن شرط"
+   },
+   "options_addConditionsToBottom": {
+      "message": "شرایط جدید اضافه شد از طریق پنجره ی pop-up را در انتهای لیست قرار بده."
+   },
+   "options_apply": {
+      "message": "اعمال تغییرات"
+   },
+   "options_applyOptionsConfirm": {
+      "message": "آیا میخواهید تنظیمات خود را ذخیره و اعمال کنید ؟"
+   },
+   "options_applyOptionsRequired": {
+      "message": "قبل از ادامه دادن تنظمات خود را ثبت کنید."
+   },
+   "options_attachProfile": {
+      "message": "افزوردن لیست قوانین"
+   },
+   "options_attachProfileHelp": {
+      "message": "شما میتوانید با افزودن لیست قوانین از مجموعه های آنلاین شروطی که توسط دیگران منتشر شده استفاده نمایید ."
+   },
+   "options_bypassListHelp": {
+      "message": "سرورهایی که نمیخواهید برای آن ها از پروکسی استفاده کنید : ( هرکدام در یک خط . )"
+   },
+   "options_bypassListHelpLinkText": {
+      "message": "( فرانویسه و بیشتر فراهم است .... )"
+   },
+   "options_cloneRule": {
+      "message": "شبیه‌سازی"
+   },
+   "options_conditionActions": {
+      "message": "کنش‌ها"
+   },
+   "options_conditionDetails": {
+      "message": "جزییات شرط"
+   },
+   "options_conditionType": {
+      "message": "نوع شرط"
+   },
+   "options_confirmDeletion": {
+      "message": "تصدیق در زمان حذف شروط."
+   },
+   "options_conflicts_higherPriority": {
+      "message": "اگر ZeroOmega دارای اولویت بیشتری است ، می توانید با انتخاب $SYSTEMPROFILE$ در منوی باز شده ، کنترل را به سایر برنامه ها یا تنظیمات سیستم بازگردانید.",
+      "placeholders": {
+         "SYSTEMPROFILE": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_conflicts_introduction": {
+      "message": "بعضی اوقات، بقیه برنامه‌ها هم سعی میکنند که تنظیمات پراکسی را کنترل کنند، که نتیجه آن تضادها در تنظیمات پراکسی است. به این نکته توجه فرمایید که Ad-blocker ها و دیگر افزونه ها ممکن است از تنظیمات پراکسی در سطح زیرین‌شان استفاده کنند. این تضادها غیرقابل اجتناب‌اند چرا که این نحوه کارکرد مرورگر است."
+   },
+   "options_conflicts_lowerPriority": {
+      "message": "وقتی یک نمایانگر قرمز مثل این روی نماد ZeroOmega نمایان می‌شود این را نشان میدهد که برنامه دیگری کنترل بیشتری دارد پس ZeroOmega نمیتواند تنظیمات را کنترل کند. لطفا ZeroOmega را دوباره نصب کنید. کاری که بایستی باعث شود کنترل ZeroOmega بر تنظیمات بیشتر شود. اگر باز هم تضادهایی در تنظیمات دیدید، لطفا اقدام به حذف برنامه‌ای که این تضاد را باعث میشود کنید."
+   },
+   "options_createProfile": {
+      "message": "ایجاد"
+   },
+   "options_cycledProfiles": {
+      "message": "نمایه‌های چرخشی"
+   },
+   "options_cycledProfilesHelp": {
+      "message": "وقتی بر روی آیکون کلید می‌کنید ( یا از میانبرهای بالا ) استفاده می‌کنید، پروفایل های زیر به ترتیب اجرا می‌شوند ."
+   },
+   "options_cycledProfilesTooFew": {
+      "message": "شما باید حداقل دو پروفایل را انتخاب کنید برای فعال کردن این وظیفه ! میتوانید از جعبه ی زیر آن را به اینجا بکشید ."
+   },
+   "options_deleteAttached": {
+      "message": "حذف لیست قوانین"
+   },
+   "options_deleteAttachedConfirm": {
+      "message": "آیا از حذف نمودن لیست قوانین از پروفایل فعلی مطمئن هستید ؟"
+   },
+   "options_deleteProfile": {
+      "message": "حذف"
+   },
+   "options_deleteProfileConfirm": {
+      "message": "آیا از حذف نمودن پروفایل های زیرمطمئن هستید ؟"
+   },
+   "options_deleteRule": {
+      "message": "حذف"
+   },
+   "options_deleteRuleConfirm": {
+      "message": "واقعا قصد حذف نمودن قانون را دارید ؟"
+   },
+   "options_discard": {
+      "message": "دور ریختن تغییرات"
+   },
+   "options_downloadInterval": {
+      "message": "دورهٔ بارگیری"
+   },
+   "options_downloadInterval_1440": {
+      "message": "هر روز"
+   },
+   "options_downloadInterval_15": {
+      "message": "۱۵ دقیقه"
+   },
+   "options_downloadInterval_180": {
+      "message": "۳ ساعت"
+   },
+   "options_downloadInterval_360": {
+      "message": "۶ ساعت"
+   },
+   "options_downloadInterval_60": {
+      "message": "۱ ساعت"
+   },
+   "options_downloadInterval_720": {
+      "message": "۱۲ ساعت"
+   },
+   "options_downloadInterval_never": {
+      "message": "هرگز"
+   },
+   "options_downloadOptions": {
+      "message": "گزینه‌های بارگیری"
+   },
+   "options_downloadOptionsHelp": {
+      "message": "تناوب بروزرسانی لیست قوانین آنلاین و اسکریپت های PAC را تنظیم کنید ."
+   },
+   "options_downloadProfileNow": {
+      "message": "هم اکنون پروفایل را دانلود کنید"
+   },
+   "options_experimental_badge": {
+      "message": "α"
+   },
+   "options_exportLegacyRuleList": {
+      "message": "در صورت امکان با استفاده از قالب سازگار Proxy Switchy!/SwitchyPlus/SwitchySharp فهرست قوانین را صادر کنید."
+   },
+   "options_exportLegacyRuleListHelp": {
+      "message": "این گزینه را تنها درصورتی که میخواهید لیست قوانین را برای کاربران اون پروژه ها انتشار دهید فعال کنید . \u003Cbr>لطفا به کاربران خود پیشنهاد بروزرسانی به ZeroOmega را برای بهره بری بهتر پیشنهاد دهید ."
+   },
+   "options_exportPacFile": {
+      "message": "خروجی به صورت فایل PAC"
+   },
+   "options_exportPacFileHelp": {
+      "message": "خروجی گرفتن پروفایل کنونی به صورت فایل PAC ، برای استفاده در دیگر مرورگرها ."
+   },
+   "options_exportProfileHelp": {
+      "message": "برای خروجی گرفتن از یک پروفایل ، از عملگر سمت راست بالای صفحه ی پروفایل ها استفاده نمایید ."
+   },
+   "options_formInvalid": {
+      "message": "لطفا خطاهای موجود در صفحه را تصحیح کنید."
+   },
+   "options_group_attachProfile": {
+      "message": "واردکردن لیست های قوانین آنلاین"
+   },
+   "options_group_bypassList": {
+      "message": "لیست سیاه"
+   },
+   "options_group_conditionHelp": {
+      "message": "درباره ی انوع شروط"
+   },
+   "options_group_conflicts": {
+      "message": "تداخل‌ها"
+   },
+   "options_group_importExportProfile": {
+      "message": "نمایه"
+   },
+   "options_group_importExportSettings": {
+      "message": "تنظیمات"
+   },
+   "options_group_keyboardShortcut": {
+      "message": "میان‌برهای صفحه‌کلید"
+   },
+   "options_group_miscOptions": {
+      "message": "گزینه‌های متفرّقه"
+   },
+   "options_group_networkRequests": {
+      "message": "درخواست‌های شبکه"
+   },
+   "options_group_pacScript": {
+      "message": "کدنوشتهٔ PAC"
+   },
+   "options_group_pacUrl": {
+      "message": "نشانی PAC"
+   },
+   "options_group_proxyChanges": {
+      "message": "تغییرات پیشکار"
+   },
+   "options_group_proxyServers": {
+      "message": "کارسازهای پیشکار"
+   },
+   "options_group_ruleListConfig": {
+      "message": "تنظیمات لیست قوانین"
+   },
+   "options_group_ruleListResult": {
+      "message": "نتایج پروفایل های لیست قوانین"
+   },
+   "options_group_ruleListText": {
+      "message": "متن لیست قوانین"
+   },
+   "options_group_ruleListUrl": {
+      "message": "آدرس لیست قوانین"
+   },
+   "options_group_switchOptions": {
+      "message": "گزینه‌های تعویض"
+   },
+   "options_group_switchRules": {
+      "message": "قوانین سوییچ"
+   },
+   "options_group_syncing": {
+      "message": "همگام‌سازی (آزمایشی)"
+   },
+   "options_group_virtualProfile": {
+      "message": "نمایهٔ مجازی"
+   },
+   "options_group_virtualProfileReplace": {
+      "message": "مهاجرت به پروفایل مجازی"
+   },
+   "options_guideDone": {
+      "message": "انجام شد"
+   },
+   "options_guideNext": {
+      "message": "بعدی"
+   },
+   "options_guideSkip": {
+      "message": "بیخیال آموزش"
+   },
+   "options_guide_addMoreProfilesStep": {
+      "message": "به پروفایل بیشتری نیازمندید ؟ شما همیشه میتوانید \u003Cb> پروکسی ، سوییچ و یا پروفایل های دیگری \u003C/b> \u003Cbr> را برای نیاز های پروکسی خود اضافه نمایید . \u003Cbr> از پروکسی زدن لذت ببرید !"
+   },
+   "options_guide_applySwitchProfileStep": {
+      "message": "وقتی انجام تنظیمات پروفایل متغییر(سوییچ) به پایان رسید ، فراموش نکنید که \u003Cb> در منونی بالاپر(popup) آن را فعال کنید.\u003C/b>\u003Cbr/> آیکون به شما \u003Cb>نتیجه ی نهایی \u003C/b> پروفایل اعمال شده در تب جاری را نشان میدهد \u003Cbr/> \u003Cb>شناور ماندن\u003C/b> بر روی آیکون توضیحات اجمالی به شما نشان خواهد داد ."
+   },
+   "options_guide_autoSwitchProfileStep": {
+      "message": "می توانید به ZeroOmega بگویید که از طریق \u003Cb> تغییر پروفایل \u003C/b> به طور خودکار بین پراکسی جابجا شود. \u003Cbr> با این حال ، در این راهنمای سریع نمی توان ویژگی های آن را پوشش داد. \u003Cbr> می توانید این نمایه را باز کنید تا قفل قدرت آن کمی باز شود. زمان بعد"
+   },
+   "options_guide_conditionProfileStep": {
+      "message": "ZeroOmega نمایه انتخاب شده را در اینجا برای \u003Cb>هر درخواستی که با شرایط مطابقت دارد اعمال می کند.\u003C/b> \u003Cbr> نمایه \u003Cb>\"[مستقیم]\"\u003C/b> باعث می شود درخواست بدون هیچ پراکسی ارسال شود."
+   },
+   "options_guide_conditionStep": {
+      "message": "ZeroOmega میتوانید پروفایل های متفاوتی را بر اساس \u003Cb>شروط \u003C/b>تقاضا کند .\u003Cbr>برای مثال ، شرط \u003Cb>فرانویسه ی میزبان \u003C/b> به شما این قابلیت را میدهد که پروفایلی برای تمامی آدرس های یک دامنه تعیین کنید ."
+   },
+   "options_guide_conditionTypeStep": {
+      "message": "برای مطابقت با نشانی وب میزبان یا کامل می توانید از انواع شرایط مختلف استفاده کنید. \u003Cbr> روی علامت سوال کلیک کنید تا مرجع نوع باز شود."
+   },
+   "options_guide_fixedProfileStep": {
+      "message": "\u003Cb>نمایهٔ پیشکار\u003C/b> شامل تنظیماتی چون درگاه و آی‌پی کارساز پیشکار است.\u003Cbr>نمایه‌ها واحدهای پیکربندی پایهٔ سوییچی اومگا هستند.\u003Cbr>از پیش نمایهٔ نمونه‌ای برایتان ایجاد کرده‌ایم. گشودنش را بیازمایید."
+   },
+   "options_guide_fixedServersStep": {
+      "message": "می توانید سرور و پورت پروکسی خود را در اینجا به دلخواه پر کنید. \u003Cbr> ZeroOmega \u003Cb> با هیچ سرور پروکسی ارائه نمی شود \u003C/b>. \u003Cbr> بدانید چه چیزی باید در اینجا پر شود."
+   },
+   "options_guide_switchDefaultStep": {
+      "message": "اگر هیچ گونه شرطی منطبق بر درخواست نباشد ، پروفایل \"پیش فرض\" استفاده خواهد شد .\u003Cbr> شروط همیشه از\u003Cb> بالا به پایین\u003C/b> در نظر گرفته میشوند .\u003Cbr> شما میتوان نظم آن را با گرفتن آیکون نظم (sort) عوض کنید ."
+   },
+   "options_hostLevelsBetween": {
+      "message": "≤ سطوح میزبان ≤"
+   },
+   "options_hourBetween": {
+      "message": "≤ ساعت کنونی ≤"
+   },
+   "options_importDownloadError": {
+      "message": "خطا در حین دانلود فایل پشتیبان !"
+   },
+   "options_importFormatError": {
+      "message": "فایل پشتیبان غیرمعتبر !"
+   },
+   "options_importSuccess": {
+      "message": "تنظیمات با موفقیت فراگیری شدند ."
+   },
+   "options_makeBackup": {
+      "message": "پشتیبان‌گیری"
+   },
+   "options_makeBackupHelp": {
+      "message": "گرفتن پشتیبان کامل از تنظیمات ( شامل پروفایل ها و تمامی تنظیمات )."
+   },
+   "options_menuShortcutConfigure": {
+      "message": "پیکربندی میان‌بر"
+   },
+   "options_menuShortcutHelp": {
+      "message": "کلید میانبر برای باز کردن منوی popup .( پیش فرض Alt+Shift+O )."
+   },
+   "options_menuShortcutMore": {
+      "message": "با استفاده از دکمه های کیبرد میتوانید به موارد داخل منوی بالاپر (popup) دسترسی داشته باشید . با فشاردادن ؟ ( یا /) میتوانید بیشتر یاد بگیرید ."
+   },
+   "options_modalHeader_applyOptions": {
+      "message": "ثبت تنظیمات"
+   },
+   "options_modalHeader_cannotDeleteProfile": {
+      "message": "عدم موفقیت در حذف پروفایل"
+   },
+   "options_modalHeader_deleteAttached": {
+      "message": "حذف لیست قوانین"
+   },
+   "options_modalHeader_deleteProfile": {
+      "message": "حذف پروفایل"
+   },
+   "options_modalHeader_deleteRule": {
+      "message": "حذف قانون"
+   },
+   "options_modalHeader_newProfile": {
+      "message": "پروفایل جدید"
+   },
+   "options_modalHeader_proxyAuth": {
+      "message": "تصدیق پروکسی"
+   },
+   "options_modalHeader_renameProfile": {
+      "message": "تغییرنام پروفایل"
+   },
+   "options_modalHeader_replaceProfile": {
+      "message": "جایگزینی پروفایل"
+   },
+   "options_modalHeader_resetOptions": {
+      "message": "ریست کردن تنظیمات"
+   },
+   "options_modalHeader_resetRules": {
+      "message": "بازنشانی قوانین"
+   },
+   "options_modalHeader_welcome": {
+      "message": "به ZeroOmega خوش آمدید"
+   },
+   "options_modifyReferringProfiles": {
+      "message": "قبل از حذف شما باید این پروفایل ها را تغییر دهید و از صدا زدن این پروفایل جلوگیری کنید ."
+   },
+   "options_monitorWebRequests": {
+      "message": "نمایش میزان درخواست های ناموفق منابع وب در تب کنونی."
+   },
+   "options_monitorWebRequestsHelp": {
+      "message": "یک نشان زرد بر روی آیکون قرارخواهد گرفت اگر در لود شدن منبعی مشکل پیش بیاید ,\u003Cbr> و شما میتوانید به راحتی پروفایل این گونه منابع را در منوی بالاپر(popup) تنظیم کنید ."
+   },
+   "options_navHeader_actions": {
+      "message": "کنش‌ها"
+   },
+   "options_navHeader_profiles": {
+      "message": "نمایه‌ها"
+   },
+   "options_navHeader_setting": {
+      "message": "تنظیمات"
+   },
+   "options_newProfile": {
+      "message": "نمایهٔ جدید…"
+   },
+   "options_newProfileName": {
+      "message": "اسم پروفایل"
+   },
+   "options_notCycledProfiles": {
+      "message": "پروفایل های غیرچرخشی"
+   },
+   "options_optionsNotSaved": {
+      "message": "تغییرات شما بر روی تنظیمات ذخیره نشده است و درصورت ادامه از بین خواهند رفت !"
+   },
+   "options_pacScriptLastUpdate": {
+      "message": "دانلود اسکریپت PAC در تاریخ $TIME$:",
+      "placeholders": {
+         "TIME": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_pacScriptObsolete": {
+      "message": "اسکریپ PAC به دلیل تغییر آدرس منسوخ میباشد . دکمه ی دانلود بالا را برای بروز رسانی فشاردهید ."
+   },
+   "options_pacUrlFile": {
+      "message": "پروفایل های PAC به همراه فایل : آدرس ها تنها میتوانند مستقیما اعمال شوند . به دلیل محدودیت مرورگر فایل های محلی دسترسی قابل دسترسی نمیباشند که سبب میشود که نتوان از آن ها به عنوان نتایج پروفایل استفاده کرد."
+   },
+   "options_pacUrlFileDisabled": {
+      "message": "از اینرو ، شما نمیتوانید از فایل های PAC محلی استفاده نمایید . شما میتوانید یک پروفایل PAC جدید بسازید اگر واقعا نیاز هست ."
+   },
+   "options_pacUrlHelp": {
+      "message": "اسکریپ PAC از این آدرس بروزرسانی میشود . درصورت خالی بودن ، اسکریپت زیر به صورت مستقیم استفاده میشود ."
+   },
+   "options_pac_profile_unsupported_moz": {
+      "message": "نمایه(پروفایل) های PAC در به دلیل محدودیت های تکنیکی در موزیلا فایرفاکس کار نخواهند کرد!"
+   },
+   "options_profileDescFixedProfile": {
+      "message": "تونل ترافیک از طریق پروکسی سرور ها."
+   },
+   "options_profileDescMorePacProfile": {
+      "message": "شما در صورتی که یک اسکریپت PAC یا آدرس مرجوعه به آن را دارید نیازمند این میشوید .درصورت عدم آشنایی با PAC تلاش برای ساخت یک نمونه نکنید ."
+   },
+   "options_profileDescPacProfile": {
+      "message": "انتخاب پروکسی ها از طریق اسکریپ PAC آنلاین/محلی ."
+   },
+   "options_profileDescRuleListProfile": {
+      "message": "استفاده ی مجدد از مجموعه ی قوانین آنلاین منتشر شده توسط دیگران ."
+   },
+   "options_profileDescSwitchProfile": {
+      "message": "اعمال پروفایل های مختلف به صورت خودکار بر روی شروط گوناگون از جمله دامنه یا الگو ها .\n شما میتوانید از قوانین منتظر شده ی آنلاین برای جا به جایی راحتر بین پروفایل نیز استفاده کنید ( جایگزین مود AutoSwitch + لیست قوانین .)"
+   },
+   "options_profileDescVirtualProfile": {
+      "message": "یک پروفایل مجازی همانند هرگونه پروفایل دیگر در حین تقاضا عمل میکند . با SwitchProfile خوب عمل میکند ، که این امکان را به شما میدهد که نتایج چندین شرط را با یک کلیک تغییر دهید."
+   },
+   "options_profileDownloadError": {
+      "message": "خطا در حین دانلود داده ی پروفایل !"
+   },
+   "options_profileDownloadError_ContentTypeRejectedError": {
+      "message": "دیتای دانلود شده نامعتبر است! میتوانید آدرس پروفایل را برای بررسی در مرورگر باز کنید."
+   },
+   "options_profileDownloadError_HttpError": {
+      "message": "هنگام به روز رسانی خطای HTTP ($ STATUS $) رخ داد."
+   },
+   "options_profileDownloadError_HttpNotFoundError": {
+      "message": "آدرس پروفایل بر روی سرور یافت نشد. لطفا دوباره بررسی کنید."
+   },
+   "options_profileDownloadError_HttpServerError": {
+      "message": "سرور ریموت با خطای ($STATUS$) در هنگام بروز رسانی پاسخ داد.",
+      "placeholders": {
+         "STATUS": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_profileDownloadError_NetworkError": {
+      "message": "هنگام به‌روز رسانی خطای در شبکه اینترنت رخ داد."
+   },
+   "options_profileDownloadSuccess": {
+      "message": "پروفایل با موفقیت بروزسانی شد ."
+   },
+   "options_profileEditSource": {
+      "message": "ویرایش سورس کد"
+   },
+   "options_profileEditSourceHelp": {
+      "message": "نمایش کمک درباره ی فرمت سورس کد"
+   },
+   "options_profileEditSourceHelpUrl": {
+      "message": "https://github.com/FelisCatus/SwitchyOmega/wiki/SwitchyOmega-conditions-format#result-profile"
+   },
+   "options_profileExportPac": {
+      "message": "برون‌ریزی PAC"
+   },
+   "options_profileExportRuleList": {
+      "message": "انتشار لیست قوانین"
+   },
+   "options_profileExportRuleListHelp": {
+      "message": "قوانین تغییر را به صورت تکست برای انتشار خروجی بگیر ."
+   },
+   "options_profileNameConflict": {
+      "message": "یک پروفایل با این نام وجود دارد."
+   },
+   "options_profileNameEmpty": {
+      "message": "اسم پروفایل نمیتواند خالی باشد."
+   },
+   "options_profileNameHidden": {
+      "message": "پروفایل هایی که نامشان با دو زیر خط \"_\" شروع میشوند در منوی بالاپر مخفی میباشند . هرجند ، در مکان هایی مانند نتایج پروفایل متغیر ، قابل استفاده اند."
+   },
+   "options_profileNameReserved": {
+      "message": "نام های پروفایل که با دو\"_\"(خط زیر) شروع میشوند رزرو میباشند."
+   },
+   "options_profileNotFound": {
+      "message": "پروفایل $PROFILE$ وجود ندارد ! تنظیمات ممکن است خراب شده باشند .",
+      "placeholders": {
+         "PROFILE": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_profileReferredBy": {
+      "message": "این پروفایل قابل حذف نمیباشد چونکه توسط این پروفایل ها صدا میشود :"
+   },
+   "options_profileTabPrefix": {
+      "message": "نمایه :: "
+   },
+   "options_profileType": {
+      "message": "لطفا نوع پروفایل را انتخاب نمایید :"
+   },
+   "options_profileTypeFixedProfile": {
+      "message": "پروفایل پروکسی"
+   },
+   "options_profileTypePacProfile": {
+      "message": "پرفایل PAC"
+   },
+   "options_profileTypeRuleListProfile": {
+      "message": "پروفایل لیست پروفایل"
+   },
+   "options_profileTypeSwitchProfile": {
+      "message": "پروفایل متغیر"
+   },
+   "options_profileTypeVirtualProfile": {
+      "message": "پروفایل مجازی"
+   },
+   "options_profileUnsupported": {
+      "message": "نوع $TYPE$! برای پروفایل پشتیبانی نمیشود!",
+      "placeholders": {
+         "TYPE": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_profileUnsupportedHelp": {
+      "message": "این گزینه ممکن است خراب شده باشد ، یا از یک ورژن جدیدی از برنامه باشد ."
+   },
+   "options_protocol_direct": {
+      "message": "مستقیم"
+   },
+   "options_protocol_useDefault": {
+      "message": "(استفاده از پیش‌گزیده)"
+   },
+   "options_proxyAuthHidePassword": {
+      "message": "مخفی کردن رمز عبور"
+   },
+   "options_proxyAuthNone": {
+      "message": "بدون تصدیق"
+   },
+   "options_proxyAuthPassword": {
+      "message": "گذرواژه"
+   },
+   "options_proxyAuthShowPassword": {
+      "message": "نمایش رمز عبور"
+   },
+   "options_proxyAuthUsername": {
+      "message": "نام کاربری"
+   },
+   "options_proxy_auth": {
+      "message": "هویت‌سنجی"
+   },
+   "options_proxy_authAllWarningPac": {
+      "message": "اخطار : نام کاربری / رمز عبور ممکن است برای سرور های غیرمنتظره توسط اسکریپت PAC بازگشتی فرستاده شود ."
+   },
+   "options_proxy_authAllWarningPacScript": {
+      "message": "قبل از ارسال هرگونه اطلاعات حساس ،لطفا از اعتبار اسکریپ فراهم شده در پایین اطمینان حاصل فرمایید ."
+   },
+   "options_proxy_authAllWarningPacUrl": {
+      "message": "قبل از ارسال هرگونه اطلاعات حساس ، لطفا از اعتبار اسکریپ فراهم شده در ادرس بالا اطمینان حاصل فرمایید ."
+   },
+   "options_proxy_authNotSupported": {
+      "message": "مرورگر شما از احراز هویت پروکسی $ PROTOCOLDISP $ پشتیبانی نمی کند! لطفاً این موضوع را به ZeroOmega گزارش نکنید. در عوض با پشتیبانی مرورگر خود تماس بگیرید."
+   },
+   "options_proxy_authReferencedWarning": {
+      "message": "در ضمن ، استفاده از این پروفایل در دیگر پروفایل ها ( به طور مثال : پروفایل متغیر ) ممکن است باعث ارسال نام کاربری / رمز به سرور های تعیین شده در دیگر پروفایل ها شود."
+   },
+   "options_proxy_expand": {
+      "message": "نمایش پیش‌رفته"
+   },
+   "options_proxy_port": {
+      "message": "درگاه"
+   },
+   "options_proxy_protocol": {
+      "message": "شیوه‌نامه"
+   },
+   "options_proxy_scheme": {
+      "message": "طرحواره"
+   },
+   "options_proxy_server": {
+      "message": "کارساز"
+   },
+   "options_proxy_single": {
+      "message": "استفاده از پروکسی بالا برای همه ی پروتکل ها."
+   },
+   "options_quickSwitch": {
+      "message": "تعویض سریع"
+   },
+   "options_refreshOnProfileChange": {
+      "message": "رفرش کردن تب کنونی در هنگام تغییر پروفایل."
+   },
+   "options_renameProfile": {
+      "message": "تغییر نام"
+   },
+   "options_renameProfileName": {
+      "message": "اسم جدید پروفایل"
+   },
+   "options_replaceProfile": {
+      "message": "جایگزینی پروفایل"
+   },
+   "options_replaceProfileConfirm": {
+      "message": "آیا قصد جایگزینی $FromProfile$ را با $ToProfile$ دارید ؟",
+      "placeholders": {
+         "FromProfile": {
+            "content": "$1"
+         },
+         "ToProfile": {
+            "content": "$2"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_replaceProfileHelp": {
+      "message": "در صورت ادامه ، تمامی قوانین مربوط به $FromProfile$ بروز رسانی میشوند تا عضو $ToProfile$ شوند . دیگر تنظیمات ، همانند پروفایل آغازین و تغییر سریع به صورت مناسب تغییر میکنند . هرچند ، این دو پروفایل تغییر یا حذف نمیشوند .",
+      "placeholders": {
+         "FromProfile": {
+            "content": "$1"
+         },
+         "ToProfile": {
+            "content": "$2"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_replaceProfileSuccess": {
+      "message": "تنظیمات بروزرسانی شد."
+   },
+   "options_reset": {
+      "message": "بازنشانی گزینه‌ها"
+   },
+   "options_resetOptionsConfirm": {
+      "message": "آیا از ریست کردن تنظیمات اطمینان دارید ؟ تمامی پروفایل ها و تنظیمات از بین خواهند رفت !"
+   },
+   "options_resetRules": {
+      "message": "بازنشانی قوانین"
+   },
+   "options_resetRulesConfirm": {
+      "message": "آیا از تغییر دادن نتایج پروفایل تمامی قوانین به پروفایل زیر مطمئن هستید ؟"
+   },
+   "options_resetRules_help": {
+      "message": "تنظیم پورفایل برای تمام کاربران"
+   },
+   "options_resetSuccess": {
+      "message": "تنظیمات ریست شد ."
+   },
+   "options_restoreLocal": {
+      "message": "برگرداندن از فایل"
+   },
+   "options_restoreLocalHelp": {
+      "message": "گزینه های ZeroOmega خود را از یک فایل محلی بازیابی کنید."
+   },
+   "options_restoreOnline": {
+      "message": "بازگرداندن از فایل آنلاین"
+   },
+   "options_restoreOnlinePlaceholder": {
+      "message": "تنظیمات آدرس فایل ( به طور مثال 'http://example.com/switchy.bak' )"
+   },
+   "options_restoreOnlineSubmit": {
+      "message": "بازگردانی"
+   },
+   "options_resultProfile": {
+      "message": "نمایه"
+   },
+   "options_resultProfileForSelectedDomains": {
+      "message": "از این پروفایل برای تمامی دامنه های منتخب استفاده کن"
+   },
+   "options_revertProxyChanges": {
+      "message": "بازگرداندن تغییرات پروکسی انجام شده توسط دیگر برنامه ها."
+   },
+   "options_ruleListDefaultProfile": {
+      "message": "پروفایل پیش فرض"
+   },
+   "options_ruleListFormat": {
+      "message": "فرمت لیست قوانین"
+   },
+   "options_ruleListLastUpdate": {
+      "message": "سیاههٔ قوانین بارگیری شده در $TIME$:",
+      "placeholders": {
+         "TIME": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_ruleListLineCount": {
+      "message": "قوانین : $COUNT$ خط",
+      "placeholders": {
+         "COUNT": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_ruleListMatchProfile": {
+      "message": "انطباق پروفایل"
+   },
+   "options_ruleListObsolete": {
+      "message": "لیست قوانین به دلیل تغییر آدرس منسوخ میباشد . دکمه ی دانلود بالا را برای بروز رسانی فشاردهید ."
+   },
+   "options_ruleListUrlHelp": {
+      "message": "لیست قوانین از این آدرس به روز رسانی میشود ، در صورت خالی بودن ، متن بعدی پردازش میشود."
+   },
+   "options_ruleNote": {
+      "message": "یادداشت"
+   },
+   "options_saveSuccess": {
+      "message": "تنظیمات ذخیره شد ."
+   },
+   "options_scheme_default": {
+      "message": "(پیش‌گزیده)"
+   },
+   "options_showConditionTypeHelp": {
+      "message": "نمایش کمک"
+   },
+   "options_showConditionTypesAdvanced": {
+      "message": "نمایش حالت های پیشرفته ی شروط"
+   },
+   "options_showConditionTypesAdvancedHelp": {
+      "message": "نوع‌های جدید پیشرفته اما پیچیده‌تر از شرط‌ها را فعال کنید .برای بیشتر حالات نوع‌های عادی کافی میباشد ، این گزینه پیشنهاد نمی‌شود."
+   },
+   "options_showExternalProfile": {
+      "message": "آیتم های منوی pop-up را برای ایمپورت تنظیمات پروکسی از دیگر برنامه ها نمایش بده."
+   },
+   "options_showExternalProfileHelp": {
+      "message": "وقتی $ SYSTEMPROFILE $ انتخاب شد ، می توانید با انتخاب $ EXTERNALPROFILE $ در منوی باز شده ، تنظیمات پروکسی موثر را از سایر برنامه ها وارد کنید. با استفاده از نامی که ارائه می کنید ، تنظیمات به عنوان نمایه وارد می شوند. لطفاً توجه داشته باشید که نمایه وارد شده یک عکس فوری است و پس از آن هیچ تغییری از برنامه منبع را نشان نمی دهد."
+   },
+   "options_showInspectMenu": {
+      "message": "مجوز برای بررسی پروکسی مورد استفاده برای یک المان صفحه در منوی زمنیه (context menu)."
+   },
+   "options_sort": {
+      "message": "چینش"
+   },
+   "options_startupProfile": {
+      "message": "نمایهٔ آغازین"
+   },
+   "options_startupProfile_none": {
+      "message": "(نمایهٔ کنونی)"
+   },
+   "options_switchAttachedProfileInCondition": {
+      "message": "قوانین لیست قوانین"
+   },
+   "options_switchAttachedProfileInConditionDetails": {
+      "message": "( هرگونه درخواست منطبق بر لیست پایین )"
+   },
+   "options_switchAttachedProfileInConditionDisabled": {
+      "message": "( قوانین لیست قوانین غیرفعالند )"
+   },
+   "options_switchDefaultProfile": {
+      "message": "پیش‌گزیده"
+   },
+   "options_syncConflictAlert": {
+      "message": "شما یک کپی از تنظیمات خود را در یک دستگاه دیگر با استفاده از همگام سازی فراهم ساختید ."
+   },
+   "options_syncConflictHelp": {
+      "message": "شما میتوانید کپی موجود در دیگر دستگاه خود را در اینجا دانلود کنید .\u003Cbr>هرچند این عمل باعث میشود \u003Cb> تنظیمات این دستگاه پاک و تنظیمات آن یکی پروفایل مورد استفاده قرار گیرد \u003C/b>."
+   },
+   "options_syncDisable": {
+      "message": "از کار انداختن همگام‌سازی"
+   },
+   "options_syncEnable": {
+      "message": "به کار انداختن همگام‌سازی"
+   },
+   "options_syncEnableForce": {
+      "message": "دانلود از همگام سازی"
+   },
+   "options_syncPristineHelp": {
+      "message": "شما اکنون میتوانید به صورت خودکار تمامی تنظیمات و پروفایل های خود را بین تمامی دستگاه های خانگی که از مرورگر کروم استفاده میکنند همگام سازی کنید ."
+   },
+   "options_syncReset": {
+      "message": "پاک کردن کپی ریموت"
+   },
+   "options_syncSyncAlert": {
+      "message": "تنظیمات شما به صورت خودکار بین دیگر دستگاه های خود همگام سازی میشوند ."
+   },
+   "options_syncSyncHelp": {
+      "message": "لطفا توجه داشته باشید که برای کارکردن همگام سازی باید در مرورگرهای کروم خود وارد شده باشید (همین دستگاه راهم شامل میشود ).\u003Cbr>میتوانید این قسمت را در دیگر دستگاه ها بررسی کنید تا مطمئن شوید که کار میکند ."
+   },
+   "options_syncUnsupportedHelp": {
+      "message": "همگام سازی گزینه ها در پلت فرم یا مرورگر شما پشتیبانی نمی شود. در حال حاضر ، فقط مرورگر Chrome روی دسکتاپ پشتیبانی می شود."
+   },
+   "options_tab_general": {
+      "message": "عمومی"
+   },
+   "options_tab_importExport": {
+      "message": "درون یا برون‌ریزی"
+   },
+   "options_tab_ui": {
+      "message": "رابط"
+   },
+   "options_title": {
+      "message": "گزینه‌های سوییچی‌اومگا"
+   },
+   "options_virtualProfileReplace": {
+      "message": "پروفایل هدف را جایگزین کنید"
+   },
+   "options_virtualProfileReplaceHelp": {
+      "message": "می توانید گزینه های موجود را برای استفاده از این نمایهٔ مجازی به جای $PROFILE$ مهاجرت دهید. انجام این کار همهٔ قوانین موجود در مورد $PROFILE$ را نیز به‌روز خواهد کرد و آن‌ها را به این نمایهٔ مجازی منتقل می‌کند تا نمایهٔ نتیجه‌شان بتواند این‌جا واپایش شود.",
+      "placeholders": {
+         "PROFILE": {
+            "content": "$2"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "options_virtualProfileTarget": {
+      "message": "هدف"
+   },
+   "options_virtualProfileTargetHelp": {
+      "message": "در هنگام اعمال این پروفایل ، دقیقا همانند پروفایل انتخاب شده ی پایینی عمل میکند ."
+   },
+   "options_weekDayShort_0": {
+      "message": "ی"
+   },
+   "options_weekDayShort_1": {
+      "message": "د"
+   },
+   "options_weekDayShort_2": {
+      "message": "س"
+   },
+   "options_weekDayShort_3": {
+      "message": "چ"
+   },
+   "options_weekDayShort_4": {
+      "message": "پ"
+   },
+   "options_weekDayShort_5": {
+      "message": "آ"
+   },
+   "options_weekDayShort_6": {
+      "message": "ش"
+   },
+   "options_welcomeNormal": {
+      "message": "شما با موفقیت ZeroOmega را نصب نموده اید ، برترین تغییر دهنده ی پروکسی."
+   },
+   "options_welcomeNormalGuide": {
+      "message": "لطفا به ZeroOmega از طریق صفجه ی تنظیمات ، پروکسی های خود را معرفی کنید ."
+   },
+   "options_welcomeUpgrade": {
+      "message": "شما با موفقیت به ZeroOmega ارتقا پیدا کرده اید ، نگران نباشید ، تمامی تنظیمات شما به طور کامل حفظ شده اند ."
+   },
+   "options_welcomeUpgradeGuide": {
+      "message": "خب بریم سراغ آموزش کوچیکی از صفحه ی تنظیمات جدید."
+   },
+   "popup_addCondition": {
+      "message": "افزودن شرط"
+   },
+   "popup_addConditionTo": {
+      "message": "افزودن شرط به"
+   },
+   "popup_configureMonitorWebRequests": {
+      "message": "تنظیم مانیتور شبکه"
+   },
+   "popup_errorLog": {
+      "message": "ذخیره لاگ خطا"
+   },
+   "popup_externalProfile": {
+      "message": "(پروفایل خارجی)"
+   },
+   "popup_externalProfileName": {
+      "message": "نام پروفایل"
+   },
+   "popup_issueTemplate": {
+      "message": "\n\n\n\u003C!-- لطفا توضیحات خود را در بالای این خط بنویسید. -->\nZeroOmega $projectVersion$↵\n$userAgent$",
+      "placeholders": {
+         "_unused_0": {
+            "content": "$0"
+         },
+         "projectVersion": {
+            "content": "$1"
+         },
+         "userAgent": {
+            "content": "$2"
+         }
+      }
+   },
+   "popup_proxyNotControllableDetails": {
+      "message": "شما نمیتوانید پروفایل ها را توسط ZeroOmega عوض نمایید ، مگر اینکه مشکلات بالا را حل نمایید ."
+   },
+   "popup_proxyNotControllableDetails_upgrade": {
+      "message": "شما نمیتوانید از دو (یا چند) ورژن ZeroOmega به طور همزمان استفاده کنید . لطفا یکی از آن ها را غیرفعال کنید ."
+   },
+   "popup_proxyNotControllableManage": {
+      "message": "میدیریت افزونه"
+   },
+   "popup_proxyNotControllable_app": {
+      "message": "تنظیمات پروکسی توسط دیگر برنامه (ها) یا افزونه (ها) میدیریت میشوند . لطفا یا آن ها را غیرفعال کرده یا برنامه یا افزونه ی مشکل ساز را حذف نمایید ."
+   },
+   "popup_proxyNotControllable_disabled": {
+      "message": "تنظیمات پروکسی بخاطر درخواست مستقیم دیگر برنامه (ها) یا افزونه (ها) غیرفعال شده است ."
+   },
+   "popup_proxyNotControllable_policy": {
+      "message": "تنظیمات پروکسی توسط policy ها سیستم کنترل میشوند . لطفا با آدمین تماس بگیرید ."
+   },
+   "popup_proxyNotControllable_unknown": {
+      "message": "تنظیمات پروکسی قابل کنترل نیست . لطفا تنظیمات سیستم یا مرورگر را بررسی کنید."
+   },
+   "popup_proxyNotControllable_upgrade": {
+      "message": "تنظیمات پروکسی توسط ورژن جدیدی از ZeroOmega کنترل میشود ."
+   },
+   "popup_reportIssues": {
+      "message": "گزارش مشکلات"
+   },
+   "popup_requestErrorAddCondition": {
+      "message": "شما میتوانید دامین های زیر را بررسی کنید و در صورت نیاز از پروکسی برای آن ها استفاده نمایید ."
+   },
+   "popup_requestErrorCannotAddCondition": {
+      "message": "شما در صورتی میتوانید شرط متغییر ( سوییچ) برای آن ها تعیین کنید که از پروفایل متغییر استفاده کرده باشید ."
+   },
+   "popup_requestErrorCount": {
+      "message": "$COUNT$ خطای منبع",
+      "placeholders": {
+         "COUNT": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "popup_requestErrorHeading": {
+      "message": "عدم موفقیت در بارگزاری منابع"
+   },
+   "popup_requestErrorWarning": {
+      "message": "بارگزاری تعدا کمی از منابع بخاطر مشکلات شبکه ، سرور پروکسی یا صفحه ی وب به مشکل برخورد ."
+   },
+   "popup_requestErrorWarningHelp": {
+      "message": "ZeroOmega تنها گزارش دهنده این خطاها میباشد ، نه ایجاد کننده ی آن ها ."
+   },
+   "popup_showOptions": {
+      "message": "گزینه‌ها"
+   },
+   "popup_title": {
+      "message": "بالاپر ZeroOmega"
+   },
+   "profile_direct": {
+      "message": "[مستقیم]"
+   },
+   "profile_system": {
+      "message": "[پیشکار سامانه]"
+   },
+   "ruleListFormat_AutoProxy": {
+      "message": "پیشکار خودکار"
+   },
+   "ruleListFormat_Switchy": {
+      "message": "سوییچی"
+   },
+   "ruleList_error_invalidRule": {
+      "message": "قانون نامعتبر در خط $LNO$: $SOURCE$",
+      "placeholders": {
+         "LNO": {
+            "content": "$1"
+         },
+         "SOURCE": {
+            "content": "$2"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "ruleList_error_missingResultProfile": {
+      "message": "نام نتیجه ی پروفایل در خط $LNO$: $SOURCE$ غایب است",
+      "placeholders": {
+         "LNO": {
+            "content": "$1"
+         },
+         "SOURCE": {
+            "content": "$2"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "ruleList_error_noDefaultRule": {
+      "message": "قانون پیش فرض با شرط انتخاب همه '*' غایب است !"
+   },
+   "ruleList_error_resultNotEnabled": {
+      "message": "دستور '@with result' غایب است!"
+   },
+   "ruleList_error_unknownProfile": {
+      "message": "پروفایل ناشناس : $PROFILE$",
+      "placeholders": {
+         "PROFILE": {
+            "content": "$1"
+         },
+         "_unused_0": {
+            "content": "$0"
+         }
+      }
+   },
+   "ruleList_usageUrl": {
+      "message": "https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage"
+   },
+   "upgrade_profile_auto": {
+      "message": "تعویض خودکار"
+   }
+}

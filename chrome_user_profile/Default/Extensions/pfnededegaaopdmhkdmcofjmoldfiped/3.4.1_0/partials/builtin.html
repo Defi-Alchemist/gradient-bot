@@ -1,0 +1,16 @@
+
+<div class="page-header">
+  <h2>{{'options_builtinProfile' | tr}}</h2>
+</div>
+<section class="settings-group"><span class="profile-color-editor">
+    <div class="profile-color-editor-fake">
+      <x-spectrum-colorpicker ng-model="systemProfile.color" options="spectrumOptions" on-change="changeColor(color)" on-move="moveColor(color, &quot;+system&quot;)"></x-spectrum-colorpicker>
+    </div></span>
+  <h2 class="profile-name">{{'options_profileTabPrefix' | tr}}{{'System'}}</h2>
+</section>
+<section class="settings-group"><span class="profile-color-editor">
+    <div class="profile-color-editor-fake">
+      <x-spectrum-colorpicker ng-model="directProfile.color" options="spectrumOptions" on-move="moveColor(color, &quot;+direct&quot;)"></x-spectrum-colorpicker>
+    </div></span>
+  <h2 class="profile-name">{{'options_profileTabPrefix' | tr}}{{'Direct'}}</h2>
+</section>

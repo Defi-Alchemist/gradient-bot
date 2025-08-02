@@ -1,0 +1,1 @@
+(function(){window.onerror=function(message,url,line,col,err){var log;console.log("globalThis onerror",arguments),globalThis.localStorage&&(log=localStorage.log||"",(null!=err?err.stack:void 0)?log+=err.stack+"\n\n":log+=url+":"+line+":"+col+":\t"+message+"\n\n",localStorage.log=log)}}).call(this);

@@ -1,0 +1,9 @@
+# Core automation dependencies
+selenium>=4.15.0
+undetected-chromedriver>=3.5.4
+
+# Console output formatting
+colorama>=0.4.6
+
+# Standard library modules (included with Python)
+# os, time, shutil, tempfile, logging, threading, urllib.parse, concurrent.futures

@@ -1,0 +1,20 @@
+
+<div class="page-header">
+  <h2>{{'Theme'}}</h2>
+</div>
+<section class="settings-group">
+  <h3>{{'Theme'}}</h3>
+  <p>
+    <button type="button" role="button" ng-click="changeTheme(&quot;default-dark&quot;)" class="btn btn-default"><span class="glyphicon glyphicon-heart"></span> {{'Dark'}}
+    </button>
+    <button type="button" role="button" ng-click="changeTheme(&quot;default-light&quot;)" class="btn btn-default"><span class="glyphicon glyphicon-heart-empty"></span> {{'Light'}}
+    </button>
+    <button type="button" role="button" ng-click="changeTheme(&quot;default-auto&quot;)" class="btn btn-default"><span class="glyphicon glyphicon-adjust"></span> {{'Auto'}}
+    </button>
+    <button type="button" role="button" ng-click="changeTheme(&quot;&quot;)" class="btn btn-default"><span class="glyphicon glyphicon-remove"></span> {{'Clear'}}
+    </button>
+    <select ng-model="selectedItem.data" ng-options="item as item.displayName for item in themeItems track by item.key" ng-change="selectTheme()" class="form-control inline-form-control"></select>
+  </p>
+  <p class="help-block"><a href="https://en.wikipedia.org/wiki/CSS" target="_blank">{{'Cascading Style Sheets (CSS) Wiki'}}</a></p>
+  <textarea rows="30" spellcheck="false" ng-model="options[&quot;-customCss&quot;]" class="monospace form-control width-limit"></textarea>
+</section>

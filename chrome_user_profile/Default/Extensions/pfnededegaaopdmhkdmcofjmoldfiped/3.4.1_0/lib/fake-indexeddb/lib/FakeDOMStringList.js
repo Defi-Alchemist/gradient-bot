@@ -1,0 +1,1 @@
+class FakeDOMStringList extends Array{contains(value){for(const value2 of this)if(value===value2)return!0;return!1}item(i){return i<0||i>=this.length?null:this[i]}_push(...values){return Array.prototype.push.call(this,...values)}_sort(...values){return Array.prototype.sort.call(this,...values)}}export default FakeDOMStringList;

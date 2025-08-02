@@ -1,0 +1,1 @@
+import FDBCursor from"./FDBCursor.js";class FDBCursorWithValue extends FDBCursor{value=void 0;constructor(source,range,direction,request){super(source,range,direction,request)}toString(){return"[object IDBCursorWithValue]"}}export default FDBCursorWithValue;

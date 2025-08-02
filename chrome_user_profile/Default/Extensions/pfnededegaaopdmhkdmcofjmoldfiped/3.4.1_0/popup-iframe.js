@@ -1,0 +1,1 @@
+document.location.href="./popup/index.html",$script("js/omega_target_popup.js","om-target",(function(){$script("popup/js/style.js","om-style"),iFrameResize({sizeWidth:!0,autoResize:!0,resizeFrom:"child",heightCalculationMethod:"bodyScroll",widthCalculationMethod:"bodyOffset"},"#myIframe")}));

@@ -1,0 +1,1 @@
+{"name":"zero-keyval","version":"1.0.0","authors":["suziwen <suziwen1@gmail.com>"],"description":"idb-keyval bower package compative with zeroomega","private":true,"ignore":["**/.*","node_modules","bower_components","test","lib","size-tests","src","Gruntfile.js","package.json"]}

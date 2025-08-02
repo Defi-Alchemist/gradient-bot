@@ -1,0 +1,47 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "img/icons/omega-action-16.png",
+         "19": "img/icons/omega-action-19.png",
+         "24": "img/icons/omega-action-24.png",
+         "32": "img/icons/omega-action-32.png"
+      },
+      "default_popup": "popup-iframe.html",
+      "default_title": "__MSG_manifest_icon_default_title__"
+   },
+   "background": {
+      "service_worker": "x-background.js",
+      "type": "module"
+   },
+   "commands": {
+      "_execute_action": {
+         "suggested_key": {
+            "default": "Alt+Shift+O"
+         }
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_manifest_app_description__",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "img/icons/omega-128.png",
+      "16": "img/icons/omega-action-16.png",
+      "24": "img/icons/omega-action-24.png",
+      "32": "img/icons/omega-action-32.png",
+      "48": "img/icons/omega-48.png",
+      "64": "img/icons/omega-64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnwLIH8XjkU2VE3N5KJeiGpXbDkXVKes2ALRmkgQu31joaSXf1hXxuQiMPTq9ouE2SoMlVzzSoiMI1XizeTEia18Iw7RfMt3uwSpLMKyCmncQJ63VjcKQvYe3xx4af8tFJA+zy2Di35ilAJ68Sw03RqusImBu950I5zD/yu7VT+rhveOs0jNx1jlA1CvVbRRrN/cFD/PmmZuXxyL5VyKkg1Cl85h09U1TLqQSRyOZfcY4a5b85loi5g/ZVm1zD/LvrWQxhcfTr5woE2ohQ4ZEAi/sTxWPNtEn/NDR0lWLz6aSAK8J+Ikla0u+mPze1gzmGV9Ns3QZvH/wVE2GC/znKQIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "88",
+   "name": "Proxy SwitchyOmega 3 (ZeroOmega)",
+   "options_page": "options.html",
+   "options_ui": {
+      "browser_style": false,
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "proxy", "tabs", "alarms", "storage", "webRequest", "webRequestAuthProvider", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.4.1"
+}

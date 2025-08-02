@@ -1,0 +1,17 @@
+
+<div class="page-header">
+  <div class="profile-actions">
+    <button ng-show="exportRuleList" ng-click="exportRuleList(profile.name)" title="{{'options_profileExportRuleListHelp' | tr}}" ng-class="exportRuleListOptions.warning ? 'btn-warning' : 'btn-default'" class="btn"><span class="glyphicon glyphicon-list"></span> {{'options_profileExportRuleList' | tr}}
+    </button> 
+    <button ng-show="scriptable" ng-click="exportScript($event, profile.name)" title="{{'options_exportPacFileHelp' | tr}}" class="btn btn-default"><span class="glyphicon glyphicon-download"></span> {{'options_profileExportPac' | tr}}
+    </button> 
+    <button ng-click="renameProfile(profile.name)" class="btn btn-default"><span class="glyphicon glyphicon-edit"></span> {{'options_renameProfile' | tr}}
+    </button> 
+    <button ng-click="deleteProfile(profile.name)" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> {{'options_deleteProfile' | tr}}
+    </button>
+  </div><span class="profile-color-editor">
+    <div ng-if="profile.profileType == &quot;VirtualProfile&quot;" ng-style="{'background-color': getProfileColor()}" class="profile-color-editor-fake"></div>
+    <x-spectrum-colorpicker ng-model="profile.color" options="spectrumOptions" ng-if="profile.profileType != &quot;VirtualProfile&quot;"></x-spectrum-colorpicker></span>
+  <h2 class="profile-name">{{'options_profileTabPrefix' | tr}}{{profile.name}}</h2>
+</div>
+<div ng-include="profileTemplate"></div>

@@ -1,0 +1,1 @@
+{"name":"zero-libs","version":"1.0.0","authors":["suziwen <suziwen1@gmail.com>"],"description":"zeroomega libs bower package","private":true,"ignore":["**/.*","node_modules","bower_components","test","lib","src","package.json"]}
