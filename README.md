@@ -68,7 +68,7 @@ This automation framework addresses the challenge of managing multiple Gradient 
 ### 1. Clone Repository
 ```bash
 git clone https://github.com/Defi-Alchemist/gradient-bot
-cd gradient-network-automation
+cd gradient-bot
 ```
 
 ### 2. Install Dependencies
