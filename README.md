@@ -6,7 +6,6 @@ A sophisticated automation framework for managing multiple Gradient Network Sent
 
 - [Overview](#overview)
 - [Features](#features)
-- [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
@@ -46,23 +45,7 @@ This automation framework addresses the challenge of managing multiple Gradient 
 - **Browser Optimization**: Memory-efficient Chrome configurations
 - **Headless Operation**: Background execution without GUI overhead
 - **Customizable Parameters**: Flexible configuration options for various deployment scenarios
-
-## 📋 Prerequisites
-
-### System Requirements
-- **Memory**: Minimum 8GB RAM (16GB+ recommended for 20+ accounts)
-- **Storage**: 2GB available disk space
-- **Network**: Stable internet connection with proxy support
-
-### Software Dependencies
-- **Python**: Version 3.8 or higher
-- **Chrome Browser**: Latest stable version
-
-### Account Requirements
-- Valid Gradient Network accounts with credentials
-- HTTP proxy servers (one per account)
-- Chrome extension: Gradient Sentry Node
-
+  
 ## 🚀 Installation
 
 ### 1. Clone Repository
@@ -71,7 +54,13 @@ git clone https://github.com/Defi-Alchemist/gradient-bot
 cd gradient-bot
 ```
 
-### 2. Install Dependencies
+### 2. Start venv
+```bash
+python3 -m venv gradient
+source gradient/bin/activate 
+```
+
+### 3. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
